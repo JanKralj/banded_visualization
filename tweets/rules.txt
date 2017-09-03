@@ -1,0 +1,167 @@
+----------------------------------------
+Hedwig semantic pattern mining (anze.vavpetic@ijs.si)
+Version: 0.2.5
+Start: 2015-08-17T12:08:12.571448
+Time taken: 2106.50 seconds
+Parameters:
+	adjust=fwer
+	FDR=0.05
+	target=None
+	format=csv
+	leaves=True
+	support=0.1
+	learner=heuristic
+	depth=5
+	optimalsubclass=False
+	beam=20
+	alpha=0.05
+	bk_dir=ontology/
+	verbose=False
+	mode=subgroups
+	covered=None
+	output=results/rules.txt
+	score=lift
+	data=preprocessed_clean.csv
+	uris=False
+	negations=False
+----------------------------------------
+'1'(X) <--
+	annotated_with(X, http://schema.org/Person), annotated_with(X, http://dbpedia.org/class/yago/Athlete109820263) [cov=147, pos=117, prec=0.796, lift=4.215, pval=0.000]
+	annotated_with(X, http://schema.org/Person), annotated_with(X, http://dbpedia.org/class/yago/Contestant109613191) [cov=152, pos=120, prec=0.789, lift=4.181, pval=0.000]
+	annotated_with(X, http://dbpedia.org/ontology/Agent), annotated_with(X, http://dbpedia.org/class/yago/Athlete109820263) [cov=149, pos=117, prec=0.785, lift=4.159, pval=0.000]
+	annotated_with(X, http://dbpedia.org/ontology/Agent), annotated_with(X, http://dbpedia.org/class/yago/Contestant109613191) [cov=154, pos=120, prec=0.779, lift=4.127, pval=0.000]
+	annotated_with(X, http://schema.org/Person), annotated_with(X, http://dbpedia.org/class/yago/LivingPeople) [cov=191, pos=145, prec=0.759, lift=4.021, pval=0.000]
+	annotated_with(X, http://schema.org/Person), annotated_with(X, http://dbpedia.org/class/yago/Person100007846) [cov=218, pos=162, prec=0.743, lift=3.936, pval=0.000]
+	annotated_with(X, http://schema.org/Person), annotated_with(X, http://dbpedia.org/class/yago/LivingThing100004258) [cov=218, pos=162, prec=0.743, lift=3.936, pval=0.000]
+	annotated_with(X, http://xmlns.com/foaf/0.1/Person), annotated_with(X, http://dbpedia.org/class/yago/Person100007846) [cov=220, pos=162, prec=0.736, lift=3.900, pval=0.000]
+	annotated_with(X, http://schema.org/Person), annotated_with(X, http://dbpedia.org/class/yago/YagoLegalActor) [cov=221, pos=162, prec=0.733, lift=3.882, pval=0.000]
+	annotated_with(X, http://schema.org/Person), annotated_with(X, http://dbpedia.org/class/yago/Object100002684) [cov=223, pos=162, prec=0.726, lift=3.848, pval=0.000]
+	annotated_with(X, http://schema.org/Person), annotated_with(X, http://dbpedia.org/class/yago/CausalAgent100007347) [cov=224, pos=162, prec=0.723, lift=3.830, pval=0.000]
+	annotated_with(X, http://schema.org/Person), annotated_with(X, http://dbpedia.org/class/yago/YagoLegalActorGeo) [cov=225, pos=162, prec=0.720, lift=3.813, pval=0.000]
+	annotated_with(X, http://xmlns.com/foaf/0.1/Person), annotated_with(X, http://dbpedia.org/class/yago/Object100002684) [cov=225, pos=162, prec=0.720, lift=3.813, pval=0.000]
+	annotated_with(X, http://xmlns.com/foaf/0.1/Person), annotated_with(X, http://dbpedia.org/class/yago/CausalAgent100007347) [cov=226, pos=162, prec=0.717, lift=3.796, pval=0.000]
+	annotated_with(X, http://dbpedia.org/ontology/Agent), annotated_with(X, http://dbpedia.org/class/yago/Person100007846) [cov=227, pos=162, prec=0.714, lift=3.780, pval=0.000]
+	annotated_with(X, http://dbpedia.org/ontology/Agent), annotated_with(X, http://dbpedia.org/class/yago/CausalAgent100007347), annotated_with(X, http://dbpedia.org/class/yago/YagoLegalActorGeo) [cov=228, pos=162, prec=0.711, lift=3.763, pval=0.000]
+	annotated_with(X, http://schema.org/Person), annotated_with(X, http://dbpedia.org/class/yago/PhysicalEntity100001930) [cov=229, pos=162, prec=0.707, lift=3.747, pval=0.000]
+	annotated_with(X, http://xmlns.com/foaf/0.1/Person), annotated_with(X, http://dbpedia.org/class/yago/PhysicalEntity100001930) [cov=231, pos=162, prec=0.701, lift=3.714, pval=0.000]
+	annotated_with(X, http://www.w3.org/2002/07/owl/Thing), annotated_with(X, http://dbpedia.org/class/yago/Person100007846) [cov=233, pos=162, prec=0.695, lift=3.682, pval=0.000]
+	annotated_with(X, http://www.w3.org/2002/07/owl/Thing), annotated_with(X, http://dbpedia.org/class/yago/CausalAgent100007347), annotated_with(X, http://dbpedia.org/class/yago/LivingThing100004258) [cov=234, pos=162, prec=0.692, lift=3.667, pval=0.000]
+'3'(X) <--
+	annotated_with(X, Concept), annotated_with(X, http://dbpedia.org/class/yago/AdministrativeDistrict108491826), annotated_with(X, http://dbpedia.org/ontology/Place) [cov=139, pos=128, prec=0.921, lift=4.271, pval=0.000]
+	annotated_with(X, Concept), annotated_with(X, http://dbpedia.org/class/yago/District108552138), annotated_with(X, http://dbpedia.org/ontology/Place) [cov=144, pos=132, prec=0.917, lift=4.251, pval=0.000]
+	annotated_with(X, Concept), annotated_with(X, http://dbpedia.org/class/yago/District108552138), annotated_with(X, http://dbpedia.org/ontology/PopulatedPlace) [cov=142, pos=130, prec=0.915, lift=4.246, pval=0.000]
+	annotated_with(X, http://dbpedia.org/ontology/Place), annotated_with(X, http://dbpedia.org/class/yago/AdministrativeDistrict108491826) [cov=175, pos=160, prec=0.914, lift=4.240, pval=0.000]
+	annotated_with(X, Concept), annotated_with(X, http://dbpedia.org/class/yago/Region108630985), annotated_with(X, http://dbpedia.org/ontology/Place) [cov=151, pos=138, prec=0.914, lift=4.239, pval=0.000]
+	annotated_with(X, _Feature), annotated_with(X, http://dbpedia.org/class/yago/AdministrativeDistrict108491826) [cov=169, pos=154, prec=0.911, lift=4.226, pval=0.000]
+	annotated_with(X, Concept), annotated_with(X, http://dbpedia.org/class/yago/Country108544813) [cov=101, pos=92, prec=0.911, lift=4.225, pval=0.000]
+	annotated_with(X, http://www.w3.org/2002/07/owl/Thing), annotated_with(X, http://dbpedia.org/class/yago/AdministrativeDistrict108491826) [cov=176, pos=160, prec=0.909, lift=4.216, pval=0.000]
+	annotated_with(X, Concept), annotated_with(X, http://dbpedia.org/class/yago/Location100027167), annotated_with(X, http://dbpedia.org/ontology/Place) [cov=154, pos=140, prec=0.909, lift=4.216, pval=0.000]
+	annotated_with(X, Concept), annotated_with(X, http://dbpedia.org/class/yago/AdministrativeDistrict108491826) [cov=141, pos=128, prec=0.908, lift=4.210, pval=0.000]
+	annotated_with(X, http://dbpedia.org/ontology/Place), annotated_with(X, http://dbpedia.org/class/yago/District108552138) [cov=184, pos=167, prec=0.908, lift=4.209, pval=0.000]
+	annotated_with(X, Concept), annotated_with(X, http://dbpedia.org/class/yago/Location100027167), annotated_with(X, http://dbpedia.org/ontology/PopulatedPlace) [cov=151, pos=137, prec=0.907, lift=4.208, pval=0.000]
+	annotated_with(X, http://dbpedia.org/ontology/PopulatedPlace), annotated_with(X, http://dbpedia.org/class/yago/District108552138) [cov=180, pos=163, prec=0.906, lift=4.200, pval=0.000]
+	annotated_with(X, http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity), annotated_with(X, http://dbpedia.org/class/yago/AdministrativeDistrict108491826) [cov=177, pos=160, prec=0.904, lift=4.192, pval=0.000]
+	annotated_with(X, _Feature), annotated_with(X, http://dbpedia.org/class/yago/District108552138) [cov=177, pos=160, prec=0.904, lift=4.192, pval=0.000]
+	annotated_with(X, http://dbpedia.org/class/yago/Abstraction100002137), annotated_with(X, http://dbpedia.org/class/yago/AdministrativeDistrict108491826), annotated_with(X, http://dbpedia.org/ontology/PopulatedPlace) [cov=103, pos=93, prec=0.903, lift=4.188, pval=0.000]
+	annotated_with(X, http://dbpedia.org/class/yago/PhysicalEntity100001930), annotated_with(X, http://dbpedia.org/class/yago/Country108544813) [cov=109, pos=98, prec=0.899, lift=4.170, pval=0.000]
+	annotated_with(X, http://dbpedia.org/class/yago/Group100031264), annotated_with(X, http://dbpedia.org/class/yago/AdministrativeDistrict108491826), annotated_with(X, http://dbpedia.org/ontology/PopulatedPlace) [cov=99, pos=89, prec=0.899, lift=4.169, pval=0.000]
+	annotated_with(X, Concept), annotated_with(X, http://dbpedia.org/class/yago/District108552138) [cov=147, pos=132, prec=0.898, lift=4.165, pval=0.000]
+	annotated_with(X, http://www.w3.org/2002/07/owl/Thing), annotated_with(X, http://dbpedia.org/class/yago/District108552138) [cov=186, pos=167, prec=0.898, lift=4.164, pval=0.000]
+'2'(X) <--
+	annotated_with(X, http://dbpedia.org/class/yago/PhysicalEntity100001930), annotated_with(X, http://dbpedia.org/class/yago/Abstraction100002137), annotated_with(X, http://dbpedia.org/class/yago/Whole100003553) [cov=87, pos=42, prec=0.483, lift=8.284, pval=0.000]
+	annotated_with(X, http://dbpedia.org/ontology/Person), annotated_with(X, http://dbpedia.org/class/yago/Abstraction100002137), annotated_with(X, http://dbpedia.org/class/yago/Object100002684) [cov=97, pos=43, prec=0.443, lift=7.607, pval=0.000]
+	annotated_with(X, http://dbpedia.org/ontology/Agent), annotated_with(X, http://dbpedia.org/class/yago/Abstraction100002137), annotated_with(X, http://dbpedia.org/class/yago/Object100002684) [cov=98, pos=43, prec=0.439, lift=7.529, pval=0.000]
+	annotated_with(X, http://schema.org/Organization), annotated_with(X, http://dbpedia.org/class/yago/YagoLegalActor) [cov=152, pos=41, prec=0.270, lift=4.629, pval=0.000]
+	annotated_with(X, http://dbpedia.org/ontology/Agent), annotated_with(X, http://dbpedia.org/class/yago/SocialGroup107950920), annotated_with(X, http://dbpedia.org/class/yago/YagoLegalActor) [cov=152, pos=41, prec=0.270, lift=4.629, pval=0.000]
+	annotated_with(X, http://dbpedia.org/ontology/Agent), annotated_with(X, http://dbpedia.org/class/yago/Organization108008335) [cov=150, pos=40, prec=0.267, lift=4.576, pval=0.000]
+	annotated_with(X, http://dbpedia.org/class/yago/PhysicalEntity100001930), annotated_with(X, http://dbpedia.org/class/yago/Group100031264) [cov=150, pos=40, prec=0.267, lift=4.576, pval=0.000]
+	annotated_with(X, http://dbpedia.org/ontology/Agent), annotated_with(X, http://dbpedia.org/class/yago/SocialGroup107950920), annotated_with(X, http://dbpedia.org/class/yago/YagoLegalActorGeo) [cov=155, pos=41, prec=0.265, lift=4.539, pval=0.000]
+	annotated_with(X, http://dbpedia.org/ontology/Agent), annotated_with(X, http://dbpedia.org/class/yago/Group100031264), annotated_with(X, http://dbpedia.org/class/yago/YagoLegalActor) [cov=160, pos=41, prec=0.256, lift=4.397, pval=0.000]
+	annotated_with(X, http://dbpedia.org/ontology/Agent), annotated_with(X, http://dbpedia.org/class/yago/SocialGroup107950920) [cov=162, pos=41, prec=0.253, lift=4.343, pval=0.000]
+	annotated_with(X, http://schema.org/Organization), annotated_with(X, http://dbpedia.org/class/yago/YagoLegalActorGeo) [cov=163, pos=41, prec=0.252, lift=4.316, pval=0.000]
+	annotated_with(X, Concept), annotated_with(X, http://dbpedia.org/class/yago/Organization108008335), annotated_with(X, http://dbpedia.org/ontology/Agent) [cov=85, pos=21, prec=0.247, lift=4.240, pval=0.000]
+	annotated_with(X, http://dbpedia.org/ontology/Person), annotated_with(X, http://dbpedia.org/class/yago/Group100031264), annotated_with(X, http://dbpedia.org/class/yago/YagoLegalActorGeo) [cov=166, pos=41, prec=0.247, lift=4.238, pval=0.000]
+	annotated_with(X, http://dbpedia.org/ontology/Agent), annotated_with(X, http://dbpedia.org/class/yago/Group100031264), annotated_with(X, http://dbpedia.org/class/yago/YagoLegalActorGeo) [cov=167, pos=41, prec=0.246, lift=4.213, pval=0.000]
+	annotated_with(X, http://schema.org/MusicGroup), annotated_with(X, http://dbpedia.org/class/yago/Abstraction100002137), annotated_with(X, http://dbpedia.org/class/yago/YagoLegalActor) [cov=144, pos=35, prec=0.243, lift=4.171, pval=0.000]
+	annotated_with(X, http://dbpedia.org/ontology/Person), annotated_with(X, http://dbpedia.org/class/yago/Group100031264) [cov=175, pos=41, prec=0.234, lift=4.020, pval=0.000]
+	annotated_with(X, http://dbpedia.org/class/yago/Object100002684), annotated_with(X, http://dbpedia.org/class/yago/Abstraction100002137) [cov=184, pos=43, prec=0.234, lift=4.010, pval=0.000]
+	annotated_with(X, http://dbpedia.org/ontology/Agent), annotated_with(X, http://dbpedia.org/class/yago/Group100031264) [cov=176, pos=41, prec=0.233, lift=3.998, pval=0.000]
+	annotated_with(X, http://www.w3.org/2002/07/owl/Thing), annotated_with(X, http://dbpedia.org/class/yago/Organization108008335) [cov=173, pos=40, prec=0.231, lift=3.968, pval=0.000]
+	annotated_with(X, http://dbpedia.org/class/yago/PhysicalEntity100001930), annotated_with(X, http://dbpedia.org/class/yago/Abstraction100002137) [cov=188, pos=43, prec=0.229, lift=3.925, pval=0.000]
+'5'(X) <--
+	annotated_with(X, http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity), annotated_with(X, http://dbpedia.org/class/yago/Whole100003553) [cov=118, pos=26, prec=0.220, lift=3.099, pval=0.000]
+	annotated_with(X, Concept), annotated_with(X, http://dbpedia.org/class/yago/Whole100003553) [cov=105, pos=22, prec=0.210, lift=2.947, pval=0.000]
+	annotated_with(X, http://www.w3.org/2002/07/owl/Thing), annotated_with(X, http://dbpedia.org/class/yago/Whole100003553), annotated_with(X, http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity) [cov=114, pos=22, prec=0.193, lift=2.714, pval=0.000]
+	annotated_with(X, http://dbpedia.org/class/yago/Whole100003553) [cov=316, pos=50, prec=0.158, lift=2.226, pval=0.000]
+	annotated_with(X, http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity), annotated_with(X, http://dbpedia.org/class/yago/PhysicalEntity100001930) [cov=300, pos=37, prec=0.123, lift=1.735, pval=0.000]
+	annotated_with(X, http://dbpedia.org/class/yago/YagoGeoEntity) [cov=256, pos=31, prec=0.121, lift=1.703, pval=0.000]
+	annotated_with(X, http://dbpedia.org/class/yago/PhysicalEntity100001930) [cov=507, pos=61, prec=0.120, lift=1.692, pval=0.000]
+	annotated_with(X, http://dbpedia.org/class/yago/PhysicalEntity100001930), annotated_with(X, http://dbpedia.org/class/yago/PhysicalEntity100001930) [cov=507, pos=61, prec=0.120, lift=1.692, pval=0.000]
+	annotated_with(X, http://dbpedia.org/class/yago/Object100002684) [cov=495, pos=59, prec=0.119, lift=1.677, pval=0.000]
+	annotated_with(X, http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity), annotated_with(X, http://dbpedia.org/class/yago/Object100002684) [cov=297, pos=35, prec=0.118, lift=1.658, pval=0.000]
+	annotated_with(X, Concept), annotated_with(X, http://dbpedia.org/class/yago/PhysicalEntity100001930) [cov=245, pos=28, prec=0.114, lift=1.607, pval=0.002]
+	annotated_with(X, http://dbpedia.org/class/yago/YagoGeoEntity), annotated_with(X, http://dbpedia.org/class/yago/Object100002684) [cov=254, pos=29, prec=0.114, lift=1.606, pval=0.001]
+	annotated_with(X, http://www.w3.org/2002/07/owl/Thing), annotated_with(X, http://dbpedia.org/class/yago/Whole100003553) [cov=292, pos=33, prec=0.113, lift=1.590, pval=0.000]
+	annotated_with(X, Concept), annotated_with(X, http://dbpedia.org/class/yago/Object100002684) [cov=242, pos=27, prec=0.112, lift=1.569, pval=0.004]
+'4'(X) <--
+	annotated_with(X, http://schema.org/MusicGroup), annotated_with(X, http://dbpedia.org/class/yago/Organization108008335) [cov=139, pos=88, prec=0.633, lift=1.656, pval=0.000]
+	annotated_with(X, http://schema.org/MusicGroup), annotated_with(X, http://dbpedia.org/class/yago/SocialGroup107950920) [cov=150, pos=94, prec=0.627, lift=1.639, pval=0.000]
+	annotated_with(X, http://schema.org/MusicGroup), annotated_with(X, http://dbpedia.org/class/yago/Group100031264) [cov=154, pos=96, prec=0.623, lift=1.631, pval=0.000]
+	annotated_with(X, http://schema.org/Organization), annotated_with(X, http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity), annotated_with(X, http://dbpedia.org/class/yago/SocialGroup107950920) [cov=142, pos=88, prec=0.620, lift=1.621, pval=0.000]
+	annotated_with(X, http://schema.org/Organization), annotated_with(X, http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity), annotated_with(X, http://dbpedia.org/class/yago/Group100031264) [cov=144, pos=88, prec=0.611, lift=1.599, pval=0.000]
+	annotated_with(X, http://schema.org/Organization), annotated_with(X, http://dbpedia.org/class/yago/Abstraction100002137) [cov=168, pos=102, prec=0.607, lift=1.588, pval=0.000]
+	annotated_with(X, http://schema.org/Organization), annotated_with(X, http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity), annotated_with(X, http://dbpedia.org/class/yago/Abstraction100002137) [cov=154, pos=92, prec=0.597, lift=1.563, pval=0.000]
+	annotated_with(X, http://dbpedia.org/ontology/Agent), annotated_with(X, http://dbpedia.org/class/yago/Organization108008335) [cov=150, pos=89, prec=0.593, lift=1.552, pval=0.000]
+	annotated_with(X, http://schema.org/Organization), annotated_with(X, Concept), annotated_with(X, http://dbpedia.org/class/yago/SocialGroup107950920) [cov=85, pos=50, prec=0.588, lift=1.539, pval=0.000]
+	annotated_with(X, http://dbpedia.org/ontology/Agent), annotated_with(X, http://dbpedia.org/class/yago/SocialGroup107950920) [cov=162, pos=95, prec=0.586, lift=1.534, pval=0.000]
+	annotated_with(X, http://schema.org/Organization) [cov=198, pos=116, prec=0.586, lift=1.533, pval=0.000]
+	annotated_with(X, http://schema.org/Organization), annotated_with(X, root) [cov=198, pos=116, prec=0.586, lift=1.533, pval=0.000]
+	annotated_with(X, http://schema.org/Organization), annotated_with(X, http://dbpedia.org/ontology/Agent) [cov=198, pos=116, prec=0.586, lift=1.533, pval=0.000]
+	annotated_with(X, http://schema.org/Organization), annotated_with(X, http://dbpedia.org/ontology/Organisation) [cov=198, pos=116, prec=0.586, lift=1.533, pval=0.000]
+	annotated_with(X, http://schema.org/Organization), annotated_with(X, http://dbpedia.org/ontology/Organisation) [cov=198, pos=116, prec=0.586, lift=1.533, pval=0.000]
+	annotated_with(X, http://schema.org/Organization), annotated_with(X, http://dbpedia.org/ontology/Organisation) [cov=198, pos=116, prec=0.586, lift=1.533, pval=0.000]
+	annotated_with(X, http://dbpedia.org/class/yago/Organization108008335) [cov=188, pos=109, prec=0.580, lift=1.517, pval=0.000]
+	annotated_with(X, http://dbpedia.org/class/yago/SocialGroup107950920) [cov=205, pos=118, prec=0.576, lift=1.506, pval=0.000]
+	annotated_with(X, http://dbpedia.org/class/yago/YagoLegalActor), annotated_with(X, http://dbpedia.org/class/yago/SocialGroup107950920) [cov=190, pos=109, prec=0.574, lift=1.501, pval=0.000]
+	annotated_with(X, http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity), annotated_with(X, http://dbpedia.org/class/yago/SocialGroup107950920) [cov=193, pos=110, prec=0.570, lift=1.491, pval=0.000]
+'7'(X) <--
+	annotated_with(X, http://www.w3.org/2002/07/owl/Thing), annotated_with(X, http://dbpedia.org/class/yago/Group100031264), annotated_with(X, http://dbpedia.org/ontology/Place) [cov=133, pos=17, prec=0.128, lift=3.917, pval=0.000]
+	annotated_with(X, http://schema.org/Country) [cov=105, pos=13, prec=0.124, lift=3.794, pval=0.000]
+	annotated_with(X, http://schema.org/Country), annotated_with(X, root) [cov=105, pos=13, prec=0.124, lift=3.794, pval=0.000]
+	annotated_with(X, http://schema.org/Country), annotated_with(X, http://dbpedia.org/ontology/Place) [cov=105, pos=13, prec=0.124, lift=3.794, pval=0.000]
+	annotated_with(X, http://schema.org/Country), annotated_with(X, http://dbpedia.org/ontology/PopulatedPlace) [cov=105, pos=13, prec=0.124, lift=3.794, pval=0.000]
+	annotated_with(X, http://schema.org/Country), annotated_with(X, http://dbpedia.org/ontology/Country) [cov=105, pos=13, prec=0.124, lift=3.794, pval=0.000]
+	annotated_with(X, http://www.w3.org/2002/07/owl/Thing), annotated_with(X, http://dbpedia.org/class/yago/Group100031264), annotated_with(X, http://dbpedia.org/ontology/PopulatedPlace) [cov=125, pos=15, prec=0.120, lift=3.677, pval=0.000]
+	annotated_with(X, http://schema.org/Country), annotated_with(X, http://dbpedia.org/class/yago/Abstraction100002137) [cov=98, pos=11, prec=0.112, lift=3.440, pval=0.000]
+	annotated_with(X, http://dbpedia.org/ontology/Place) [cov=269, pos=28, prec=0.104, lift=3.190, pval=0.000]
+	annotated_with(X, http://schema.org/Place) [cov=269, pos=28, prec=0.104, lift=3.190, pval=0.000]
+	annotated_with(X, http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity), annotated_with(X, http://dbpedia.org/class/yago/Group100031264), annotated_with(X, http://dbpedia.org/ontology/Country) [cov=97, pos=10, prec=0.103, lift=3.159, pval=0.000]
+	annotated_with(X, http://schema.org/Country), annotated_with(X, http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity) [cov=100, pos=10, prec=0.100, lift=3.064, pval=0.001]
+	annotated_with(X, http://schema.org/Country), annotated_with(X, http://dbpedia.org/class/yago/YagoLegalActorGeo), annotated_with(X, http://dbpedia.org/class/yago/Abstraction100002137) [cov=96, pos=9, prec=0.094, lift=2.873, pval=0.002]
+	annotated_with(X, http://dbpedia.org/ontology/PopulatedPlace) [cov=239, pos=22, prec=0.092, lift=2.821, pval=0.000]
+	annotated_with(X, http://schema.org/Country), annotated_with(X, http://dbpedia.org/class/yago/YagoLegalActorGeo) [cov=100, pos=9, prec=0.090, lift=2.758, pval=0.003]
+	annotated_with(X, Concept), annotated_with(X, http://dbpedia.org/class/yago/Group100031264), annotated_with(X, http://dbpedia.org/ontology/PopulatedPlace) [cov=105, pos=8, prec=0.076, lift=2.335, pval=0.014]
+	annotated_with(X, Concept), annotated_with(X, http://dbpedia.org/class/yago/Group100031264), annotated_with(X, http://dbpedia.org/ontology/Place) [cov=108, pos=8, prec=0.074, lift=2.270, pval=0.016]
+	annotated_with(X, http://www.w3.org/2002/07/owl/Thing), annotated_with(X, http://dbpedia.org/class/yago/SocialGroup107950920) [cov=186, pos=12, prec=0.065, lift=1.977, pval=0.009]
+	annotated_with(X, http://www.w3.org/2002/07/owl/Thing), annotated_with(X, http://dbpedia.org/class/yago/Group100031264) [cov=266, pos=17, prec=0.064, lift=1.958, pval=0.001]
+'6'(X) <--
+	annotated_with(X, http://dbpedia.org/class/yago/CausalAgent100007347) [cov=248, pos=41, prec=0.165, lift=3.224, pval=0.000]
+	annotated_with(X, http://dbpedia.org/class/yago/PhysicalEntity100001930), annotated_with(X, http://dbpedia.org/class/yago/Person100007846) [cov=240, pos=35, prec=0.146, lift=2.844, pval=0.000]
+	annotated_with(X, http://dbpedia.org/class/yago/YagoLegalActorGeo), annotated_with(X, http://dbpedia.org/class/yago/CausalAgent100007347) [cov=241, pos=35, prec=0.145, lift=2.832, pval=0.000]
+	annotated_with(X, http://dbpedia.org/class/yago/CausalAgent100007347), annotated_with(X, http://dbpedia.org/class/yago/LivingThing100004258) [cov=241, pos=35, prec=0.145, lift=2.832, pval=0.000]
+	annotated_with(X, http://dbpedia.org/class/yago/PhysicalEntity100001930), annotated_with(X, http://dbpedia.org/class/yago/LivingThing100004258) [cov=242, pos=35, prec=0.145, lift=2.820, pval=0.000]
+	annotated_with(X, http://www.w3.org/2002/07/owl/Thing), annotated_with(X, http://dbpedia.org/class/yago/CausalAgent100007347) [cov=241, pos=34, prec=0.141, lift=2.751, pval=0.000]
+	annotated_with(X, http://xmlns.com/foaf/0.1/Person) [cov=244, pos=33, prec=0.135, lift=2.637, pval=0.000]
+	annotated_with(X, http://xmlns.com/foaf/0.1/Person), annotated_with(X, root) [cov=244, pos=33, prec=0.135, lift=2.637, pval=0.000]
+	annotated_with(X, http://xmlns.com/foaf/0.1/Person), annotated_with(X, http://xmlns.com/foaf/0.1/Person) [cov=244, pos=33, prec=0.135, lift=2.637, pval=0.000]
+	annotated_with(X, http://xmlns.com/foaf/0.1/Person), annotated_with(X, http://dbpedia.org/class/yago/PhysicalEntity100001930) [cov=231, pos=31, prec=0.134, lift=2.617, pval=0.000]
+	annotated_with(X, http://xmlns.com/foaf/0.1/Person), annotated_with(X, http://dbpedia.org/class/yago/CausalAgent100007347) [cov=226, pos=30, prec=0.133, lift=2.588, pval=0.000]
+	annotated_with(X, http://xmlns.com/foaf/0.1/Person), annotated_with(X, http://www.w3.org/2002/07/owl/Thing) [cov=242, pos=32, prec=0.132, lift=2.579, pval=0.000]
+	annotated_with(X, http://schema.org/Person), annotated_with(X, http://www.w3.org/2002/07/owl/Thing) [cov=241, pos=31, prec=0.129, lift=2.508, pval=0.000]
+	annotated_with(X, http://schema.org/Person) [cov=242, pos=31, prec=0.128, lift=2.498, pval=0.000]
+	annotated_with(X, http://schema.org/Person), annotated_with(X, root) [cov=242, pos=31, prec=0.128, lift=2.498, pval=0.000]
+	annotated_with(X, http://schema.org/Person), annotated_with(X, http://dbpedia.org/ontology/Agent) [cov=242, pos=31, prec=0.128, lift=2.498, pval=0.000]
+	annotated_with(X, http://schema.org/Person), annotated_with(X, http://dbpedia.org/ontology/Person) [cov=242, pos=31, prec=0.128, lift=2.498, pval=0.000]
+	annotated_with(X, http://schema.org/Person), annotated_with(X, http://dbpedia.org/class/yago/PhysicalEntity100001930) [cov=229, pos=29, prec=0.127, lift=2.469, pval=0.000]
+	annotated_with(X, http://schema.org/Person), annotated_with(X, http://dbpedia.org/class/yago/CausalAgent100007347) [cov=224, pos=28, prec=0.125, lift=2.438, pval=0.000]
+	annotated_with(X, http://www.w3.org/2002/07/owl/Thing), annotated_with(X, http://dbpedia.org/class/yago/Person100007846) [cov=233, pos=28, prec=0.120, lift=2.343, pval=0.000]
