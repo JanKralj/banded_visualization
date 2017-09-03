@@ -170,7 +170,6 @@ def plot_matrix_rules(matrix, bands, n, rr, cc, all_rules, save_to, ylabel):
             plt.show()
         else:
             plt.savefig(save_to + '_cluster_%i.png' % i, dpi=400)
-        plt.show()
         plt.close("all")
 
 

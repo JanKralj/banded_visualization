@@ -1,10 +1,16 @@
-import matplotlib.pyplot as plt
-import re
-import core
-import numpy as np
-from helpers import load_data, load_rules, load_hierarchy
-from visualization import plot_matrix, plot_matrix_clusters, plot_matrix_rules, plot_matrix_clusters_transpose, plot_matrix_rules_transpose
 import argparse
+import re
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+import core
+try:
+    from .helpers import load_data, load_rules, load_hierarchy
+    from .visualization import plot_matrix_clusters, plot_matrix_rules
+except ValueError:
+    from helpers import load_data, load_rules, load_hierarchy
+    from visualization import plot_matrix_clusters, plot_matrix_rules
 
 
 def run():
